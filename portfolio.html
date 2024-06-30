@@ -1,7 +1,7 @@
 <section class="portfolio" id="portfolio">
   <h2 class="heading">Portfolio</h2>
   <div class="portfolio-items">
-    <div class="portfolio-item">
+    <div class="portfolio-item" onclick="showPopup(0)">
       <img src="food-iphone-slide.png" alt="" />
       <div class="portfolio-item-icons">
         <i class="bx bxl-apple"></i> 
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="portfolio-item" data-images="['food-mac-1,'BiarFoodMac']">
+    <div class="portfolio-item" onclick="showPopup(1)">
         <img src="food-mac-1.png" alt="" />
         <div class="portfolio-item-icons">
           <i class="bx bxl-apple"></i> 
@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <div class="portfolio-item">
+      <div class="portfolio-item" onclick="showPopup(2)">
         <img src="leben-in-deutschland-3.gif" alt="" />
         <div class="portfolio-item-icons">
           <i class="bx bxl-apple"></i> 
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="portfolio-item">
+      <div class="portfolio-item" onclick="showPopup(3)">
         <img src="learn-app-slide.png" alt="" />
         <div class="portfolio-item-icons">
           <i class="bx bxl-apple"></i> 
@@ -52,3 +52,14 @@
   </div>
 </section>
 
+  <!-- Add more items as needed -->
+
+  <div id="popup" class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <div class="popup-content">
+        <img id="popup-image" src="" alt="Popup Image">
+    </div>
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    <div id="caption"></div>
+</div>
