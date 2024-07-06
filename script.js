@@ -50,38 +50,38 @@ let currentImageIndex = 0;
 const items = [
   {
     images: [
-      { src: "food-iphone-1.png", caption: "Image 1" },
-      { src: "food-iphone-2.png", caption: "Image 2" },
-      { src: "food-iphone-3.png", caption: "Image 3" },
-      { src: "food-iphone-4.png", caption: "Image 4" },
-      { src: "food-iphone-5.png", caption: "Image 5" },
-      { src: "food-iphone-6.png", caption: "Image 6" },
+      { src: "asset/food-iphone-1.png", caption: "Image 1" },
+      { src: "asset/food-iphone-2.png", caption: "Image 2" },
+      { src: "asset/food-iphone-3.png", caption: "Image 3" },
+      { src: "asset/food-iphone-4.png", caption: "Image 4" },
+      { src: "asset/food-iphone-5.png", caption: "Image 5" },
+      { src: "asset/food-iphone-6.png", caption: "Image 6" },
     ],
   },
   {
     images: [
-      { src: "food-mac-1.png", caption: "Image 1" },
-      { src: "food-mac-2.png", caption: "Image 2" },
-      { src: "food-mac-3.png", caption: "Image 3" },
-      { src: "food-mac-4.png", caption: "Image 4" },
-      { src: "food-mac-5.png", caption: "Image 5" },
-      { src: "food-mac-6.png", caption: "Image 6" },
-      { src: "food-mac-7.png", caption: "Image 7" },
-      { src: "food-mac-8.png", caption: "Image 8" },
+      { src: "asset/food-mac-1.png", caption: "Image 1" },
+      { src: "asset/food-mac-2.png", caption: "Image 2" },
+      { src: "asset/food-mac-3.png", caption: "Image 3" },
+      { src: "asset/food-mac-4.png", caption: "Image 4" },
+      { src: "asset/food-mac-5.png", caption: "Image 5" },
+      { src: "asset/food-mac-6.png", caption: "Image 6" },
+      { src: "asset/food-mac-7.png", caption: "Image 7" },
+      { src: "asset/food-mac-8.png", caption: "Image 8" },
     ],
   },
   {
     images: [
-      { src: "leben-in-deutschland-1.png", caption: "Image 1" },
-      { src: "leben-in-deutschland-2.png", caption: "Image 2" },
+      { src: "asset/leben-in-deutschland-1.png", caption: "Image 1" },
+      { src: "asset/leben-in-deutschland-2.png", caption: "Image 2" },
     ],
   },
   {
     images: [
-      { src: "learn-android-1.png", caption: "Image 1" },
-      { src: "learn-android-2.png", caption: "Image 1" },
-      { src: "learn-android-3.png", caption: "Image 1" },
-      { src: "learn-android-4.png", caption: "Image 1" },
+      { src: "asset/learn-android-1.png", caption: "Image 1" },
+      { src: "asset/learn-android-2.png", caption: "Image 1" },
+      { src: "asset/learn-android-3.png", caption: "Image 1" },
+      { src: "asset/learn-android-4.png", caption: "Image 1" },
     ],
   },
   // Add more items and their images as needed
