@@ -344,6 +344,7 @@ span {
   transition: 0.3s ease-in-out;
   align-items: center;
   cursor: pointer;
+  max-width: 300px;
 }
 .portfolio-item:hover {
   color: var(--text-color);
