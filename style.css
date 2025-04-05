@@ -342,9 +342,10 @@ span {
   border-radius: 10%;
   gap: 1.5rem;
   transition: 0.3s ease-in-out;
-  align-items: center;
+  align-items:center;
   cursor: pointer;
   max-width: 300px;
+  justify-content: space-between;
 }
 .portfolio-item:hover {
   color: var(--text-color);
@@ -365,7 +366,7 @@ span {
   align-self: center;
 }
 .portfolio-item-btn {
-  display: flex;
+  display:flex;
   gap: 10px;
 }
 .portfolio-item-btn a {
