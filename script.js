@@ -84,6 +84,11 @@ const items = [
       { src: "asset/learn-android-4.png", caption: "Image 1" },
     ],
   },
+  {
+    images: [
+      { src: "asset/backend.png", caption: "Image 1" },
+    ],
+  },
   // Add more items and their images as needed
 ];
 
